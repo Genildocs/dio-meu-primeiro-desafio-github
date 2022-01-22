@@ -1,3 +1,15 @@
+****Gerando chaves ssh para sincronização do git local com o git hub ***
+ssh-keygen -t ed25519 -c seu email preferencialmente do git hub
+Será gerado dois arquivos id_ed25519(chave privada ou local) e id_ed25519.pub(chave publica)
+para gerar a chave utilizar o comando cat seguido do id publico.
+No github ir em configurações e após ssh and gpg keys. colocar a chave gerada em Key.
+No git bash inicializar o ssh agent com o comando: eval $(agent -s)
+Por ultimo passar a chave privada para o agent gerado com o comando ssh-add id_ed25519
+
+
+
+
+---------------------------------------------------------------
 Verificar o status da pasta GIT usar comando: git status
 Para efetuar o upload de informações para o github usar o comando:
 
