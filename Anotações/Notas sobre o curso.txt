@@ -1,2 +1,2 @@
-Verificar o status da pasta usar comando: git status
-Para efetuar o upload de informações para o github usar o comando: git add . / git commit - "msg"
+Verificar o status da pasta GIT usar comando: git status
+Para efetuar o upload de informações para o github usar o comando: git add . / git commit -m "msg" / git push origin main
